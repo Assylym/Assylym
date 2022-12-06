@@ -1,16 +1,24 @@
-### Hi there 👋
+class Main(Frame):
+    def __init__(self, root):
+        super(Main, self).__init__(root)
+        self.build()
 
-<!--
-**Assylym/Assylym** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def build(self):
+        pass
+ 
+    def logicalc(self, operation):
+        pass
 
-Here are some ideas to get you started:
+    def update():
+       pass
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+if __name__ == '__main__':
+    root = Tk()
+    root["bg"] = "#000"
+    root.geometry("485x550+200+200")
+    root.title("Калькулятор")
+    root.resizable(False, False)
+    app = Main(root)
+    app.pack()
+    root.mainloop()
